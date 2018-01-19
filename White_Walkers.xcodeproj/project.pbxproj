@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		E1CF4EED20115F6B00F83DC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF4EEC20115F6B00F83DC9 /* AppDelegate.swift */; };
-		E1CF4EEF20115F6B00F83DC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF4EEE20115F6B00F83DC9 /* ViewController.swift */; };
+		E1CF4EEF20115F6B00F83DC9 /* MapLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF4EEE20115F6B00F83DC9 /* MapLocationViewController.swift */; };
 		E1CF4EF220115F6B00F83DC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CF4EF020115F6B00F83DC9 /* Main.storyboard */; };
 		E1CF4EF520115F6B00F83DC9 /* White_Walkers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1CF4EF320115F6B00F83DC9 /* White_Walkers.xcdatamodeld */; };
 		E1CF4EF720115F6B00F83DC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1CF4EF620115F6B00F83DC9 /* Assets.xcassets */; };
 		E1CF4EFA20115F6B00F83DC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CF4EF820115F6B00F83DC9 /* LaunchScreen.storyboard */; };
 		E1CF4F0520115F6C00F83DC9 /* White_WalkersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF4F0420115F6C00F83DC9 /* White_WalkersTests.swift */; };
 		E1CF4F1020115F6C00F83DC9 /* White_WalkersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF4F0F20115F6C00F83DC9 /* White_WalkersUITests.swift */; };
+		E1CF4F1E201195A000F83DC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF4F1D201195A000F83DC9 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* Begin PBXFileReference section */
 		E1CF4EE920115F6B00F83DC9 /* White_Walkers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = White_Walkers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CF4EEC20115F6B00F83DC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E1CF4EEE20115F6B00F83DC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1CF4EEE20115F6B00F83DC9 /* MapLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLocationViewController.swift; sourceTree = "<group>"; };
 		E1CF4EF120115F6B00F83DC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1CF4EF420115F6B00F83DC9 /* White_Walkers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = White_Walkers.xcdatamodel; sourceTree = "<group>"; };
 		E1CF4EF620115F6B00F83DC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		E1CF4F0B20115F6C00F83DC9 /* White_WalkersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = White_WalkersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CF4F0F20115F6C00F83DC9 /* White_WalkersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = White_WalkersUITests.swift; sourceTree = "<group>"; };
 		E1CF4F1120115F6C00F83DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1CF4F1D201195A000F83DC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				E1CF4EEC20115F6B00F83DC9 /* AppDelegate.swift */,
-				E1CF4EEE20115F6B00F83DC9 /* ViewController.swift */,
+				E1CF4F1D201195A000F83DC9 /* ViewController.swift */,
+				E1CF4EEE20115F6B00F83DC9 /* MapLocationViewController.swift */,
 				E1CF4EF020115F6B00F83DC9 /* Main.storyboard */,
 				E1CF4EF620115F6B00F83DC9 /* Assets.xcassets */,
 				E1CF4EF820115F6B00F83DC9 /* LaunchScreen.storyboard */,
@@ -262,8 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1CF4EEF20115F6B00F83DC9 /* ViewController.swift in Sources */,
+				E1CF4EEF20115F6B00F83DC9 /* MapLocationViewController.swift in Sources */,
 				E1CF4EF520115F6B00F83DC9 /* White_Walkers.xcdatamodeld in Sources */,
+				E1CF4F1E201195A000F83DC9 /* ViewController.swift in Sources */,
 				E1CF4EED20115F6B00F83DC9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,9 +435,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYZQ23D36B;
 				INFOPLIST_FILE = White_Walkers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jinal.swift.White-Walkers";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RyanGKist.Cold-Call";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -445,9 +451,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYZQ23D36B;
 				INFOPLIST_FILE = White_Walkers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jinal.swift.White-Walkers";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RyanGKist.Cold-Call";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
